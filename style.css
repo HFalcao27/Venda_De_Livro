@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(lucas-calleri-sao-paulo1.jpg);
+    height: 100vh;
+    background-color: #000000;
+    box-sizing: border-box;
+    color: #e9e3e3;
+}
+
+.presentation { 
+    margin: 10% 16%; 
+    display: flex;
+    align-items:column; 
+    justify-content:space-between;
+}
+
+.presentation__content {
+    width: 615px;
+    display: flex;
+    flex-direction:column;
+    gap: 35px;
+}
+
+.capalivro {
+    max-height: 70vh;
+}
+
+.presentation__content__paragraph {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.presentation__content__titulo {
+    font-size:36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.presentation__content__link{
+    
+    background-color: #ffe2e2;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; 
+
+}
+
+.textdolink{
+    
+    color:#c71e1e;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.presentation__link__text {
+
+   }
