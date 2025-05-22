@@ -91,3 +91,23 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+
+/*A partir daqui estou mexendo no about*/
+
+.fotosobremim {
+
+    border-radius: 16px;
+    max-height: 55vh;
+    padding:80px;
+
+}
+
+.presentation__about {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    width: 615px;
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    
+}
