@@ -5,13 +5,33 @@
     padding: 0%;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 16%;
+}
+
+.cabecalho__menu { 
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+
+    font-family: 'Montserrast', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 body {
-    background-image: url(assets/lucas-calleri-sao-paulo1.jpg);
+    background-image: url(/assets/lucas-calleri-sao-paulo1.jpg);
     height: 100vh;
     background-color: #000000;
     box-sizing: border-box;
     color: #e9e3e3;
 }
+
 
 .presentation { 
     margin: 10% 16%; 
@@ -62,6 +82,12 @@ body {
 
 }
 
-.presentation__link__text {
-
-   }
+.rodape {
+    padding: 24px; 
+    color : #ffffff;
+    background-color: #f40e0e;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
