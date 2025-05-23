@@ -23,16 +23,13 @@
     text-decoration: none;
 }
 
-
 body {
-    background-image: url(/assets/lucas-calleri-sao-paulo1.jpg);
+    background-image: url ("/assets/lucas-calleri-sao-paulo1.jpg");
     height: 100vh;
-    background-color: #000000;
+    background-color: black;
     box-sizing: border-box;
     color: #e9e3e3;
 }
-
-
 .presentation { 
     margin: 10% 16%; 
     display: flex;
@@ -51,35 +48,37 @@ body {
     max-height: 70vh;
 }
 
-.presentation__content__paragraph {
-    font-size: 24px;
-    font-family: "Montserrat", sans-serif;
-
-}
 
 .presentation__content__titulo {
     font-size:36px;
     font-family: "Krona One", sans-serif;
 }
 
-.presentation__content__link{
+.presentation__content__paragraph {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+.presentation__link{
     
-    background-color: #ffe2e2;
+    background-color: #ffffff;
     width: 280px;
     text-align: center;
     border-radius: 16px;
     font-size: 24px;
     font-weight: 600;
-    padding: 21.5px 0; 
+    padding: 21.5px 0;
 
 }
 
-.textdolink{
-    
-    color:#c71e1e;
+.presentation__link__link{
     text-decoration: none;
+    color:#f43535;
     font-family: "Montserrat", sans-serif;
-
+    text-decoration: none;
+    
 }
 
 .rodape {
@@ -111,3 +110,7 @@ body {
     gap: 16px;
     
 }
+/*A partir daqui estou mexendo no Redes Sociais*/
+
+
+
